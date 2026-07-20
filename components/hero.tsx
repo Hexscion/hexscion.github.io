@@ -1,19 +1,18 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import SvgReact from "@/app/svgrs/react.jsx";
-import SvgBgTag from "@/app/svgrs/bg-tag.jsx";
-import SvgBackground from "@/app/svgrs/background.jsx";
-import SvgCloud1 from "@/app/svgrs/cloud-1.jsx";
-import SvgCloud2 from "@/app/svgrs/cloud-2.jsx";
-import SvgHillBack from "@/app/svgrs/hill-back.jsx";
-import SvgHillFront from "@/app/svgrs/hill-front.jsx";
-import SvgLandBack from "@/app/svgrs/land-back.jsx";
-import SvgLandFront from "@/app/svgrs/land-front.jsx";
-import SvgTree1 from "@/app/svgrs/tree-1.jsx";
-import SvgTree2 from "@/app/svgrs/tree-2.jsx";
-import SvgTree3 from "@/app/svgrs/tree-3.jsx";
-import SvgBirds from "@/app/svgrs/birds.jsx";
+import SvgReact from "@/svgrs/react.jsx";
+import SvgBackground from "@/svgrs/background.jsx";
+import SvgCloud1 from "@/svgrs/cloud-1.jsx";
+import SvgCloud2 from "@/svgrs/cloud-2.jsx";
+import SvgHillBack from "@/svgrs/hill-back.jsx";
+import SvgHillFront from "@/svgrs/hill-front.jsx";
+import SvgLandBack from "@/svgrs/land-back.jsx";
+import SvgLandFront from "@/svgrs/land-front.jsx";
+import SvgTree1 from "@/svgrs/tree-1.jsx";
+import SvgTree2 from "@/svgrs/tree-2.jsx";
+import SvgTree3 from "@/svgrs/tree-3.jsx";
+import SvgBirds from "@/svgrs/birds.jsx";
 
 export default function Hero() {
   const [coords, setCoords] = useState({ x: 0, y: 0, isMobile: false, rawX: 0 });
@@ -173,9 +172,9 @@ export default function Hero() {
       })}
 
       {/* Intro Overlay Text */}
-      <div className="relative mt-32 mx-auto w-[85%] sm:w-[70%] lg:w-[60%] max-w-[1150px] grid grid-cols-1 lg:grid-cols-[25%_75%] gap-4 items-center z-20">
+      <div className="relative mt-32 mx-auto w-[85%] sm:w-[70%] lg:w-[60%] max-w-287.5 grid grid-cols-1 lg:grid-cols-[25%_75%] gap-4 items-center z-20">
         <SvgReact
-          className={`hidden lg:block w-[90%] max-w-[250px] z-20 animate-[spin_30s_linear_infinite] transition-all duration-1000 ease-out ${
+          className={`hidden lg:block w-[90%] max-w-62.5 z-20 animate-[spin_30s_linear_infinite] transition-all duration-1000 ease-out ${
             mounted ? "scale-100 opacity-100" : "scale-0 opacity-0"
           }`}
           alt="React Logo"

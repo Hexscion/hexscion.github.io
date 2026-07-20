@@ -46,7 +46,7 @@ export default function Services() {
         >
           <ChevronLeft className="w-10 h-10" />
         </button>
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold font-secondary tracking-wide text-dark min-w-[240px] text-center">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold font-secondary tracking-wide text-dark min-w-60 text-center">
           {selectValue}
         </h1>
         <button 
@@ -82,7 +82,7 @@ function FrontendVector() {
       viewBox="0 0 400 300" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full max-w-[350px] animate-fade-in-left rounded-2xl bg-dark/5 p-4 border border-dark/10"
+      className="w-full max-w-87.5 animate-fade-in-left rounded-2xl bg-dark/5 p-4 border border-dark/10"
     >
       {/* Browser Window Mockup */}
       <rect x="20" y="20" width="360" height="260" rx="12" fill="#370075" fillOpacity="0.03" stroke="#370075" strokeWidth="2" />
@@ -120,7 +120,7 @@ function UIDesignVector() {
       viewBox="0 0 400 300" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full max-w-[350px] animate-fade-in-left rounded-2xl bg-dark/5 p-4 border border-dark/10"
+      className="w-full max-w-87.5 animate-fade-in-left rounded-2xl bg-dark/5 p-4 border border-dark/10"
     >
       {/* Canvas background */}
       <rect x="20" y="20" width="360" height="260" rx="12" fill="#370075" fillOpacity="0.03" stroke="#370075" strokeWidth="2" />
@@ -167,7 +167,7 @@ function FrontendDevelopment() {
   ];
 
   return (
-    <div className="flex flex-col items-center gap-8 max-w-[1200px] w-full animate-fade-in">
+    <div className="flex flex-col items-center gap-8 max-w-300 w-full animate-fade-in">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16 mb-8 w-full">
         <FrontendVector />
         <p className="w-full lg:w-1/2 text-base sm:text-lg lg:text-xl text-dark leading-relaxed animate-fade-in-right text-center lg:text-left font-light">
@@ -204,7 +204,7 @@ function UIDesign() {
   ];
 
   return (
-    <div className="flex flex-col items-center gap-8 max-w-[1200px] w-full animate-fade-in">
+    <div className="flex flex-col items-center gap-8 max-w-300 w-full animate-fade-in">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16 mb-8 w-full">
         <UIDesignVector />
         <p className="w-full lg:w-1/2 text-base sm:text-lg lg:text-xl text-dark leading-relaxed animate-fade-in-right text-center lg:text-left font-light">

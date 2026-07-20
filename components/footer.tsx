@@ -5,6 +5,7 @@ import { GithubIcon } from "@/components/icons/simple-icons-github";
 export default function Footer() {
   return (
     <footer className="bg-[#111] text-accent text-center py-20 text-lg mt-auto w-full">
+      <img src="/Portfolio Icon.svg" alt="Hexscion" className="w-40 mx-auto mb-8" />
       <a 
         href="mailto:aldrickrasquinha@gmail.com" 
         className="font-bold hover:underline hover:opacity-85 transition-opacity"

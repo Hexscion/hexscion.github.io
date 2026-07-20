@@ -175,12 +175,12 @@
   transition: transform 0.3s ease-in-out; 
 }
 
-.project-overlay {
-  animation: clip-out 1s ease-in-out forwards;
+.project-group .project-overlay {
+  animation: clip-out 0.5s ease-in-out forwards;
 }
 
 .project-group:hover .project-overlay {
-  animation: clip-in .5s ease-in-out forwards; 
+  animation: clip-in 0.5s ease-in-out forwards;
 }
 
 /* Header Mobile Menu Bubble Expansion and Hamburger */

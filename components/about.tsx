@@ -6,7 +6,7 @@ export default function About() {
           Who I Am
         </h2>
         
-        <div className="flex flex-col items-center gap-6 text-lg sm:text-lg lg:text-xl text-center max-w-[1200px] leading-relaxed font-light">
+        <div className="flex flex-col items-center gap-6 text-lg sm:text-lg lg:text-xl text-center max-w-300 leading-relaxed font-light">
           <p>
             I’m a frontend developer based in <strong className="font-bold text-accent">Mangalore, India</strong>. 
             I specialize in building clean, responsive user interfaces and focusing on performance and code quality.

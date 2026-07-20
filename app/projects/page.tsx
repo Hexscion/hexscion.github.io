@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { projects } from "../data/portfolio";
+import { projects } from "@/data/portfolio";
 
 export default function ProjectsPage() {
   return (
-    <section className="py-28 px-6 max-w-[1200px] mx-auto min-h-[700px] flex flex-col items-center">
+    <section className="py-28 px-6 max-w-300 mx-auto min-h-[80vh] flex flex-col items-center">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 text-center text-dark relative after:content-[''] after:block after:w-8 after:h-px after:bg-dark after:opacity-25 after:mx-auto after:mt-2">
         Projects
       </h2>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 content-center w-full mt-8">
         {projects.map((project) => (
           <Link
@@ -26,7 +26,7 @@ export default function ProjectsPage() {
           </Link>
         ))}
       </div>
-      
+
       <Link
         href="/certificates"
         className="block w-fit px-10 py-4 rounded-full bg-accent text-light font-secondary font-bold uppercase tracking-wider hover:bg-dark transition-colors mt-16 mx-auto no-underline text-center cursor-pointer text-sm sm:text-base"
