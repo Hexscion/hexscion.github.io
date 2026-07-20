@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-706.645403)">
+        <path id="Land-Front" serif:id="Land Front" d="M0,904.808C0,904.808 335.435,958.218 503.512,947.272C684.626,935.476 914.744,883.409 1086.684,834.035C1244.319,788.768 1360.105,753.288 1467.444,732.121C1553.935,715.066 1655.295,704.439 1730.721,707.034C1795.215,709.253 1920,747.691 1920,747.691L1920,1080L0,1080L0,904.808Z" style="fill:url(#_Linear1);"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(53.394694,373.354597,-373.354597,53.394694,1866.605306,706.645403)"><stop offset="0" style="stop-color:rgb(221,221,221);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(125,125,125);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
